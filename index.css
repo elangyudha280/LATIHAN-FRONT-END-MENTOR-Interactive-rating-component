@@ -148,3 +148,20 @@ p.card-desc {
   font-family: 'Overpass', sans-serif;
 }
 /* end code card thanks */
+
+@media screen and (max-width: 400px) {
+  section.card-container {
+    width: 80%;
+  }
+  .number-container {
+    flex-wrap: wrap;
+    gap: 1em;
+  }
+}
+
+@media screen and (max-height: 360px) {
+  main.template {
+    padding: 2em 0;
+    height: auto;
+  }
+}
